@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 37%;
+  height: 200px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+input, textarea {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #81C784 ;
+  padding: 5px;
+  border: 100px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#mensaje {
+  font-weight: bold;
+  color: ;
+}
+ 
