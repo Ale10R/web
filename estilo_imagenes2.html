@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de sombreado en imagen</title>
+    <style>
+      img {
+        box-shadow: 0px 0px 5px 2px #888;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejemplo de sombreado en imagen</h1>
+    <img src="groot1.jpg" WIDTH=350 onmouseover="this.style.boxShadow='0px 0px 20px 6px #888'" onmouseout="this.style.boxShadow='0px 0px 8px 7px #888'">
+	<br><br><br><br><br>
+La propiedad "box-shadow" se utiliza para agregar una sombra a la imagen, 
+luego se agregan dos atributos HTML "onmouseover" y "onmouseout" a la etiqueta <img> 
+para que la sombra cambie cuando el cursor del mouse está sobre la imagen.
+<br><br> 
+Cuando el cursor del mouse está sobre la imagen, se cambia la propiedad "box-shadow" a una sombra más grande 
+y cuando el cursor sale de la imagen, se cambia a la sombra original.
+  </body>
+</html>
+
+
+
